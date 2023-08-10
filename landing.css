@@ -1,0 +1,109 @@
+*{padding:0; margin:0; box-sizing: border-box;  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'IBM Plex Mono', monospace;
+
+*/
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: aquamarine;
+    background: #222f3e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav1 i{
+    margin:0 9px;
+}
+.nav1 a{
+    text-decoration: solid;
+    color: black;
+    padding: 5px 15px;
+    background: #e67e22;
+}
+
+.nav2{
+    width:100%;
+    height: 90px;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 50px 30px;
+
+}
+.menu a{
+    text-decoration:#2779d6;
+    color: rgb(10, 10, 184);
+    padding: 5px 15px;
+    font-size: x-large;
+    font-family: 'Arial Narrow Bold';
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background:url(img/bgm.jpg);
+    margin-bottom: 10%;
+    background-size: 100% 100%;
+}
+.h-text{
+    max-width: 600px;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: large ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.h-text h1{
+    font-size: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 60px;
+}
+.h-text span{
+    color: #121314;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 60px;
+}
+.h-text p{
+    font-size: 30px;
+    margin: 40px 0;
+    line height: 30px;
+}
+.h-text a{
+    text-decoration: solid;
+    color: aliceblue;
+    background: #e67e22;
+    padding: 10px 20px;
+}
+footer
+ .nav3{
+    width: 100%;
+    height: 200px;
+    color: white;
+    background: #000811;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav3 p{
+    font-size: x-large;
+}
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: rgb(207, 8, 8); 
+    border-radius: 8px;
+    transition:0.4s;
+ }
+ .nav3 a:hover{
+    background: transparent;
+    border:1px solid indianred;
+ }
